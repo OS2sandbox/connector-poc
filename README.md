@@ -1,25 +1,37 @@
-# 🔄 connector
+# 🧪 OS2sandbox connector-PoC
+_A collaborative sandbox for building public sector integration prototypes._
+###### This repository is part of the [OS2sandbox](https://github.com/OS2sandbox).
+
 
 > [!IMPORTANT]
 > *This project is still in its early phases*.
 > 
 > *"connector" is a working title and is subject to change*
 
-An os2 sandbox project for collaboration on a modern, open data workflow architecture for reusable, generic data integrations and data workflows, based on upstream components, delivering on strategic interoperability, secure and efficient sharing of data and software reuse goals. [🇩🇰 Strategiske fællesoffentlige mål (på dansk)](https://arkitektur.digst.dk/)
- 
-An early project description in danish is available here: [🇩🇰 Projektbeskrivelse på dansk](./documents/projektbeskrivelse_da.md)
+This repo is designed to support hackathons and proof-of-concept sprints, where developers, architects, and public sector teams can share ideas, code, templates, and documentation.
 
-## 🏗️ Architecture
-🚧 Under construction.
+---
 
-For the current state and some work in progress diagrams, please refer to theses issues:
+## 🎯 Purpose
 
-https://github.com/OS2sandbox/connector/issues/7 | https://github.com/OS2sandbox/connector/issues/13 and the documents folder in this branch:
-[6-create-architectural-illustrations](https://github.com/OS2sandbox/connector/tree/6-create-architectural-illustrations/documents)
+- Build and test integration workflows using open standards
+- Share reusable config templates and infrastructure setups
+- Collaborate on documentation and DevX improvements
+- Explore new ideas in a low-barrier, open environment
 
 
-## ⏲️ Roadmap
-🚧 Under construction
+## 💡 Want to contribute?
+
+- Have an idea?
+    >  Open an issue in the [issue tracker](https://github.com/OS2sandbox/connector)
+    > Share your idea, template, or improvement
+
+- Have a code contribution?
+    > Follow the [contribution guidelines](./CONTRIBUTING.md)
+
+- Just curious?
+    > Join the [conversation](https://github.com/OS2sandbox/connector) and help shape the future of public code
+
 
 ## 🧑‍🤝‍🧑 Organisation
 Still informal and on volunteer basis
@@ -28,10 +40,9 @@ Still informal and on volunteer basis
 > 
 > Want to be a part of the project? [Create an issue](https://github.com/OS2sandbox/connector/issues/new) and mention @chatbotberg or @janhalen
 
+We’re excited to build with you — your contribution matters!
 
-## Participating
+##### New to GitHub and issues? 
 
-To contribute to the project start by commenting on or creating an issue here: https://github.com/OS2sandbox/connector/issues
+:books: Read more [here](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart)
 
-New to GitHub and issues? 
-Read more here: https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart
