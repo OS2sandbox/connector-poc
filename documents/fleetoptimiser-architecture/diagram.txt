@@ -1,0 +1,33 @@
+title GPS & FO Environment
+direction down
+
+GPS [icon: truck, label: GPS]
+
+GPS Collector ENV [icon: cloud] {
+  Collector [icon: settings, label: "GPS Collector (Connector, config-driven, scalable)"]
+  Storage [icon: database, label: "DB Storage (TTL ~1 year, Source of Truth)"]
+  Frontend [icon: monitor, label: "Frontend"]
+  Queue [icon: redis, label: "Messaging Queue (optional, min. TTL)"]
+}
+
+FleetOptimiser ENV [icon: cloud] {
+  FO Data [icon: database, label: "FO Data"]
+  Aggregator [icon: settings]
+  FleetOptimiser [icon: car]
+}
+
+External [icon: api, label: External API]
+
+
+GPS --> Collector
+Collector --> Storage
+Collector --> Queue
+Frontend <--> Storage
+
+
+Aggregator --> Collector
+Collector <-- External
+
+
+Aggregator <--> FO Data
+FO Data <--> FleetOptimiser
