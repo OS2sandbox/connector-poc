@@ -19,6 +19,10 @@ This repo is designed to support hackathons and proof-of-concept sprints, where 
 - Collaborate on documentation and DevX improvements
 - Explore new ideas in a low-barrier, open environment
 
+## 🗓️ Current status
+
+- Researching and prototyping [Dapr](https://docs.dapr.io/concepts/overview) based data-connectors. [Feel free to participate here!](https://github.com/OS2sandbox/connector-poc/issues/13)
+- Experiments with device-data connectors, currently [Teltonika GPS devices](https://github.com/OS2sandbox/connector-poc/issues/20)
 
 ## 💡 Want to contribute?
 
