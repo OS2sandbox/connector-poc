@@ -21,8 +21,10 @@ This repo is designed to support hackathons and proof-of-concept sprints, where 
 
 ## 🗓️ Current status
 
-- Researching and prototyping [Dapr](https://docs.dapr.io/concepts/overview) based data-connectors. [Feel free to participate here!](https://github.com/OS2sandbox/connector-poc/issues/13)
-- Experiments with device-data connectors, currently [Teltonika GPS devices](https://github.com/OS2sandbox/connector-poc/issues/20)
+- Os2FleetOptimiser has analyzed the loosely coupled approach of the connector architecture, and have decided to [get involved](https://github.com/OS2sandbox/connector-poc/issues/22) and harvest the benefits.
+    - Experiments with device-data connectors, currently [Teltonika GPS devices](https://github.com/OS2sandbox/connector-poc/issues/20)
+    - Reuse of the Open Sorce [FIWARE components and smart data models](https://www.fiware.org/catalogue/) (NGSI)
+- @miphilin has picked up the glove and have started working on raising community support for a connector component interfacing with [Fordelingskomponenten](https://digitaliseringskataloget.dk/l%C3%B8sninger/fordelingskomponenten)
 
 ## 💡 Want to contribute?
 
@@ -39,6 +41,9 @@ This repo is designed to support hackathons and proof-of-concept sprints, where 
 
 ## 🧑‍🤝‍🧑 Organisation
 Still informal and on volunteer basis
+
+@miphilin & @sobuos are working on anchoring a couple of integration projects (or "connectors" if you like) in this project.
+
 > [!IMPORTANT]
 > We are looking for contributors and maintainers
 > 
